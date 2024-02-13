@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+h1 {
+    color: #333;
+}
+
+#video {
+    width: 100%;
+    height: auto;
+    max-width: 800px;
+}
+
+#preview {
+    display: none;
+    width: 100%;
+    height: auto;
+    max-width: 512px;
+    max-height: 384px;
+}
+
+.status {
+    margin-top: 10px;
+    color: #777;
+}
+
+#btn {
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+a {
+    display: block;
+    margin-top: 20px;
+    text-decoration: none;
+    color: #4285f4;
+    font-weight: bold;
+}
